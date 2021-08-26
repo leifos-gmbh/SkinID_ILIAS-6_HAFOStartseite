@@ -1,0 +1,37 @@
+//MAINBAR
+.nav.il-maincontrols {
+    display: none !important;
+}
+.il-mainbar-triggers {
+    .btn-bulky .bulky-label,
+    .il-link.link-bulky .bulky-label {
+        letter-spacing: 0.05rem;
+    }
+    .btn-bulky,
+    .il-link.link-bulky {
+        &:hover,
+        &.engaged {
+            color: @mid-gray;
+        }
+    }
+}
+.il-mainbar-slates .panel-secondary .il-std-item-container {
+    border-top: none;
+    &:not(:last-child) {
+        border-bottom: 1px solid #f0f0f0;
+    }
+}
+
+//TOOLS
+.il-mainbar-tools-button {
+    .btn-bulky {
+        background-color: darken(@brand-secondary, 10%);
+        &.engaged {
+            background-color: @il-highlight-bg;
+        }
+    }
+}
+.il-mainbar-tools-entries-bg {
+    background:  @il-secondary-container-bg;
+}
+

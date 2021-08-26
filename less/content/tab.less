@@ -1,0 +1,22 @@
+#ilTab {
+    border-bottom: 2px solid lighten(@mid-gray, 15%);
+}
+.nav-tabs {
+    > li > a:hover {
+        border-color: lighten(@mid-gray, 78%);
+    }
+    > li.active > a {
+        background-color:  lighten(@mid-gray, 15%);
+        &:hover,
+        &:active {
+            background-color:  lighten(@mid-gray, 15%);
+        }
+    }
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: lighten(@mid-gray, 78%);
+}
+#ilSubTab > li > a:hover {
+    color: lighten(@mid-gray, 15%);
+}

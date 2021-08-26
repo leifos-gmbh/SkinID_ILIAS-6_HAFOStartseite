@@ -1,0 +1,89 @@
+//PANEL
+.panel {
+    box-shadow: none;
+    .panel-body {
+        background-color: @il-secondary-container-bg;
+    }
+}
+.il-panel-listing-std-container {
+    background-color: white;
+    > h2 {
+        padding: 9px 0;
+    }
+    > h3 {
+        color: @mid-gray;
+        padding: 9px 0;
+    }
+    > .dropdown {
+        padding: 9px 0;
+    }
+}
+.il-item {
+    padding: 12px 0;
+    .il-item-divider {
+        border-bottom: dashed 0.5px @panel-inner-border;
+    }
+}
+.il-item-group {
+    background-color: white;
+    > h3 {
+        padding: 9px 0;
+    }
+    > h4 {
+        padding: 9px 0;
+    }
+}
+.il-std-item-container {
+    border-top: 1px solid @panel-inner-border;
+}
+
+//SECONDARY PANEL
+.panel-secondary {
+    .panel-heading.ilHeader {
+        padding: 8px 0px;
+    }
+}
+//DASHBOARD
+.ilDashboardMainContent {
+    .panel-body {
+        background-color: white !important;
+        padding: 9px 0;
+    }
+    .panel .panel-heading.ilHeader {
+        background-color: white !important;
+        padding: 9px 0;
+        > h2 {
+            font-size: 19px;
+            font-weight: 600;
+            color: @panel-heading-color !important;
+            line-height: 1.33;
+        }
+        .dropdown {
+            float: right !important;
+            right: 0;
+            position: absolute;
+        }
+        &.clearfix {
+            position: relative;
+        }
+    }
+    .panel .panel-heading.ilBlockHeader {
+        background-color: white;
+        .dropdown {
+            float: right !important;
+            right: 0;
+            position: absolute;
+        }
+    }
+}
+
+//TASKS
+#block_pdtasks_0 {
+    .panel-body {
+        margin: 2px;
+    }
+    .panel .panel-body {
+        padding: 6px 12px 2px 12px;
+    }
+}
+
